@@ -1,6 +1,8 @@
 import numpy as np
 
-ARotateB = np.array([[np.cos(np.pi / 6), -np.sin(np.pi / 6), 0], [np.sin(np.pi / 6), np.cos(np.pi / 6), 0], [0, 0, 1]])
+angle = 30  # Angle in degrees
+angle = 30 / 180 * np.pi  # Angle in radians
+ARotateB = np.array([[np.cos(angle), -np.sin(angle), 0], [np.sin(angle), np.cos(angle), 0], [0, 0, 1]])
 BPosition = np.array([0, 2, 0])
 BPosition = np.transpose(BPosition)  # Makes B into a Column Vector
 
