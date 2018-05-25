@@ -1,0 +1,8 @@
+prefix=/home/arms18/groupx_ws/devel
+
+Name: turtlebotMove
+Description: Description of turtlebotMove
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arms18/groupx_ws/devel/lib 
+Requires: 

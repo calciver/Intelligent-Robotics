@@ -1,0 +1,5 @@
+<launch>
+	<include file="/opt/ros/indigo/share/turtlebot_bringup/launch/minimal.launch"/>
+	<node pkg="turtlebotMove" name="move_forward_instance" type="move.py" output="screen"/>
+
+</launch>
